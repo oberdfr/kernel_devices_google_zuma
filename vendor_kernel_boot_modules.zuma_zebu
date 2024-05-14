@@ -147,7 +147,6 @@ trusty-virtio.ko
 ufs-exynos-gs.ko
 usb_f_dm.ko
 usb_f_dm1.ko
-usb_f_rndis.ko
 usb_psy.ko
 usbc_cooling_dev.ko
 virtio_balloon.ko
