@@ -255,7 +255,7 @@
 			/* dpu_votf_base = <0x19CAF000>; */
 
 			/* QoS */
-			num_default_qos_steps = <8>;
+			num_default_qos_steps = <9>;
 			num_encoder_qos_steps = <8>;
 			max_mb = <5480873>;
 			mfc_freq_control = <1>;
@@ -372,6 +372,17 @@
 					mo_uhd_enc60_value = <0>;
 					bts_scen = "mfc_8k_dec30";
 					time_fw = <445>;
+				};
+				mfc_d_qos_variant_8 {
+					thrd_mb = <5356906>;
+					freq_mfc = <711000>;
+					freq_int = <1066000>;
+					freq_mif = <2288000>;
+					mo_value = <0>;
+					mo_10bit_value = <1>;
+					mo_uhd_enc60_value = <0>;
+					bts_scen = "mfc_8k_dec30";
+					time_fw = <273>;
 				};
 			};
 
