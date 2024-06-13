@@ -9,7 +9,7 @@
 //#include <dt-bindings/clock/gs101.h>
 
 &reserved_memory {
-	xhci_dma: xhci_dma@97000000 {
+	xhci_dma_dram: xhci_dma_dram@97000000 {
 		compatible = "shared-dma-pool";
 		reg = <0x0 0x97000000 0x400000>;
 		no-map;
@@ -202,7 +202,7 @@
 			compatible = "synopsys,dwc3";
 			reg = <0x0 0x11210000 0x10000>;
 			interrupts = <GIC_SPI IRQ_USB32DRD_GIC_0_HSI0 IRQ_TYPE_LEVEL_HIGH 0>;
-			memory-region = <&xhci_dma>;
+			memory-region = <&xhci_dma_dram>;
 			dr_mode = "peripheral";
 			phys = <&usbdrd_phy0 0>, <&usbdrd_phy0 1>;
 			phy-names = "usb2-phy", "usb3-phy";
