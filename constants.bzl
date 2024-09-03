@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0-only
 
 """
-ZUMA constants.
+Zuma constants.
 """
 
 ZUMA_DTBS = [
@@ -10,6 +10,12 @@ ZUMA_DTBS = [
     "zuma-a0-ipop.dtb",
     "zuma-b0-foplp.dtb",
     "zuma-b0-ipop.dtb",
+]
+
+ZUMA_DPM_DTBOS = [
+    "zuma-dpm-eng.dtbo",
+    "zuma-dpm-user.dtbo",
+    "zuma-dpm-userdebug.dtbo",
 ]
 
 ZUMA_MODULE_OUTS = [

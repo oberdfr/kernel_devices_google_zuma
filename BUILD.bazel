@@ -15,7 +15,7 @@ load(
 )
 load("//common:modules.bzl", "get_gki_modules_list")
 load("//private/devices/google/common/kleaf:create_file.bzl", "create_file")
-load(":constants.bzl", "ZUMA_DTBS", "ZUMA_MODULE_OUTS")
+load(":constants.bzl", "ZUMA_DPM_DTBOS", "ZUMA_DTBS", "ZUMA_MODULE_OUTS")
 
 package(
     default_visibility = [
@@ -69,7 +69,7 @@ filegroup(
 kernel_build(
     name = "kernel",
     srcs = [":kernel_sources"],
-    outs = ZUMA_DTBS,
+    outs = ZUMA_DTBS + ZUMA_DPM_DTBOS,
     base_kernel = "//common:kernel_aarch64",
     build_config = ":build_config",
     collect_unstripped_modules = True,
