@@ -255,7 +255,6 @@ kernel_module_group(
         # keep sorted
         ":zuma_soc",
         "//private/google-modules/amplifiers/audiometrics",
-        "//private/google-modules/amplifiers/snd_soc_wm_adsp:snd-soc-wm-adsp",
         "//private/google-modules/aoc",
         "//private/google-modules/aoc/alsa",
         "//private/google-modules/aoc/usb:aoc.usb",
