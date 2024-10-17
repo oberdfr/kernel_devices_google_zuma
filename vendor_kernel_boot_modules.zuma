@@ -17,6 +17,7 @@ bc_max77759.ko
 bcm47765.ko
 bigwave.ko
 bookerci.ko
+boot_device_spi.ko
 bts.ko
 cachefiles.ko
 clk_exynos_gs.ko
