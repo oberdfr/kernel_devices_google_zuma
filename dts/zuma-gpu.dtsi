@@ -104,7 +104,7 @@
 		gpu_dvfs_step_up_val = <3>;
 
 		/* Fmax limit */
-		gpu_dvfs_max_freq = <890000>;
+		gpu_dvfs_max_freq = <940000>;
 
 		/* QOS */
 		gpu_dvfs_qos_bts_scenario = "g3d_performance";
